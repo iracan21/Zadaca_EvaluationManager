@@ -33,9 +33,9 @@
             this.cmbIzborKorisnika = new System.Windows.Forms.ComboBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnDownload = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -67,33 +67,33 @@
             this.textBox1.TabIndex = 2;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // button1
+            // btnDelete
             // 
-            this.button1.Location = new System.Drawing.Point(653, 607);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 57);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Delete";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnDelete.Location = new System.Drawing.Point(653, 607);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(146, 57);
+            this.btnDelete.TabIndex = 3;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnDownload
             // 
-            this.button2.Location = new System.Drawing.Point(805, 607);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(146, 57);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Download";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnDownload.Location = new System.Drawing.Point(805, 607);
+            this.btnDownload.Name = "btnDownload";
+            this.btnDownload.Size = new System.Drawing.Size(146, 57);
+            this.btnDownload.TabIndex = 4;
+            this.btnDownload.Text = "Download";
+            this.btnDownload.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnEdit
             // 
-            this.button3.Location = new System.Drawing.Point(349, 607);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(146, 57);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Edit";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnEdit.Location = new System.Drawing.Point(349, 607);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(146, 57);
+            this.btnEdit.TabIndex = 5;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -110,9 +110,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 676);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnEdit);
+            this.Controls.Add(this.btnDownload);
+            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.cmbIzborKorisnika);
@@ -130,9 +130,9 @@
         private System.Windows.Forms.ComboBox cmbIzborKorisnika;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnDownload;
+        private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button button4;
     }
 }
